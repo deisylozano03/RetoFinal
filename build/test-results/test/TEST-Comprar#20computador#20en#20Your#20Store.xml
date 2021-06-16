@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Comprar computador en Your Store" tests="1" skipped="0" failures="1" errors="0" timestamp="2021-06-16T19:12:29" hostname="DESKTOP-MFTPO4L" time="51.173">
+  <properties/>
+  <testcase name="Pruebas a compras de computador Mac" classname="Comprar computador en Your Store" time="51.173">
+    <failure message="java.lang.AssertionError: &#10;Expected: &quot;Your order has been processed!&quot;&#10;     but: was &quot;Your order has been successfully processed!&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: &quot;Your order has been processed!&quot;
+     but: was &quot;Your order has been successfully processed!&quot;
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:316)
+	at us.abstracta.opencar.sqa.stepdefinitions.YourStoreStepDefinition.seRealiceLaVerificacionDelProductoConLaCompraRealizada(YourStoreStepDefinition.java:51)
+	at ✽.se realice la verificacion del producto con la compra realizada exitosamente(src/test/resources/features/yourstore.feature:7)
+</failure>
+  </testcase>
+  <system-out><![CDATA[Your order has been successfully processed!
+]]></system-out>
+  <system-err><![CDATA[jun 16, 2021 2:12:30 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 37656
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+jun 16, 2021 2:12:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+jun 16, 2021 2:13:20 PM org.openqa.selenium.os.OsProcess destroy
+GRAVE: Unable to kill process java.lang.ProcessImpl@692654b9
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: Pruebas a compras de computador Mac
+--------------------------------------------------------------------------
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Then La compra ha sido realizada should be 'Your order has been processed!'
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - Expected: "Your order has been processed!" but: was "Your order has been successfully processed!"
+]]></system-err>
+</testsuite>

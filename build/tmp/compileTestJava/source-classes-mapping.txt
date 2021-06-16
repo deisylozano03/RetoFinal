@@ -1,0 +1,4 @@
+us/abstracta/opencar/sqa/runners/YourShopRunner.java
+ us.abstracta.opencar.sqa.runners.YourShopRunner
+us/abstracta/opencar/sqa/stepdefinitions/YourStoreStepDefinition.java
+ us.abstracta.opencar.sqa.stepdefinitions.YourStoreStepDefinition

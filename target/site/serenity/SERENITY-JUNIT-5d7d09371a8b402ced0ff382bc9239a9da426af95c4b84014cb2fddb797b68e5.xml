@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Comprar computador en Your Store" skipped="0" tests="1" time="48.2" timestamp="2021-06-16 02:12:29"><testcase name="Pruebas a compras de computador Mac"><failure message="&#10;Expected: &quot;Your order has been processed!&quot;&#10;     but: was &quot;Your order has been successfully processed!&quot;" type="java.lang.AssertionError">
+Expected: "Your order has been processed!"
+     but: was "Your order has been successfully processed!"</failure><system-err>
+Expected: "Your order has been processed!"
+     but: was "Your order has been successfully processed!"&#13;
+us.abstracta.opencar.sqa.stepdefinitions.YourStoreStepDefinition.seRealiceLaVerificacionDelProductoConLaCompraRealizada(YourStoreStepDefinition.java:51)&#13;
+✽.se realice la verificacion del producto con la compra realizada exitosamente(src/test/resources/features/yourstore.feature:7)&#13;
+</system-err></testcase></testsuite>

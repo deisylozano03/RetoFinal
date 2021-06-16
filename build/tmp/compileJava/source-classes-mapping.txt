@@ -1,0 +1,16 @@
+us/abstracta/opencar/sqa/userinterface/PaginaCompra.java
+ us.abstracta.opencar.sqa.userinterface.PaginaCompra
+us/abstracta/opencar/sqa/questions/Comprobar.java
+ us.abstracta.opencar.sqa.questions.Comprobar
+us/abstracta/opencar/sqa/userinterface/PaginaProducto.java
+ us.abstracta.opencar.sqa.userinterface.PaginaProducto
+us/abstracta/opencar/sqa/userinterface/PaginaYourStore.java
+ us.abstracta.opencar.sqa.userinterface.PaginaYourStore
+us/abstracta/opencar/sqa/tasks/IrAlProducto.java
+ us.abstracta.opencar.sqa.tasks.IrAlProducto
+us/abstracta/opencar/sqa/tasks/IrAlCarro.java
+ us.abstracta.opencar.sqa.tasks.IrAlCarro
+us/abstracta/opencar/sqa/userinterface/PaginaVerificar.java
+ us.abstracta.opencar.sqa.userinterface.PaginaVerificar
+us/abstracta/opencar/sqa/tasks/IrAVerificar.java
+ us.abstracta.opencar.sqa.tasks.IrAVerificar
